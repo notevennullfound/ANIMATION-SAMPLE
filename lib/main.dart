@@ -13,9 +13,8 @@ import 'pages/utils/routes.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: LoadAssets(),
-    /*initialRoute: RouteName.pageOne,
-    onGenerateRoute: Routes.generateRoute,*/
+    initialRoute: RouteName.pageOne,
+    onGenerateRoute: Routes.generateRoute,
   ));
 }
 
